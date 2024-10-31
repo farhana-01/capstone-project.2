@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="/imges/Logo.webp" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/peges/product/product.html"
+                                id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Product
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="/peges/Prodact/Product.html">COLLECTION PAGE</a></li>
+                                <li><a class="dropdown-item" href="/peges/Prodact/Product.html"> Collection Left Sidebar</a></li>
+                                <li><a class="dropdown-item" href="/peges/Prodact/Product.html">Collection Right Sidebar</a></li>
+                                <li><a class="dropdown-item" href="/peges/Prodact/Product.html">Collection Top Sidebar</a></li>
+                                <li><a class="dropdown-item" href="/peges/Prodact/Product.html"> Collection Without Sidebar</a></li>
+                                <li><a class="dropdown-item" href="/peges/Prodact/Product.html">Collection Deals</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/peges/Product.Detail/productdetil.html"
+                                id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"> Prodact Details </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="/peges/Product.Detail/productdetil.html"> PRODUCT DETAIL</a></li>
+                                <li><a class="dropdown-item" href="/peges/Product.Detail/productdetil.html"> Product Detail Default</a></li>
+                                <li><a class="dropdown-item" href="/peges/Product.Detail/productdetil.html"> Product Detail Thumb Left 1</a></li>
+                                <li><a class="dropdown-item" href="/peges/Product.Detail/productdetil.html"> Product Detail Thumb Left 2</a></li>
+                                <li><a class="dropdown-item" href="/peges/Product.Detail/productdetil.html"> Product Detail Thumb Right</a></li>
+                                <li><a class="dropdown-item" href="/peges/Product.Detail/productdetil.html"> Product Deals Coundown</a></li>
+                                <li><a class="dropdown-item" href="/peges/Product.Detail/productdetil.html"> Product Detail Tab Accordion V1</a></li>
+                                <li><a class="dropdown-item" href="/peges/Product.Detail/productdetil.html"> Product Detail Tab Accordion V2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/peges/other.pages/other-peges.html"
+                                id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Other Pages</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="../../../peges/other.pages/about/About us.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="../../../peges/other.pages/contact/contact us.html">Contact Us</a></li>
+                                <li><a class="dropdown-item" href="../../../peges/other.pages/faq/FAQ.html"> FAQs Page</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/peges/belog/bloges.html"
+                                id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Blogs</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="/peges/belog/belog list one/belog list viwe.html">Blog List View</a></li>
+                                <li><a class="dropdown-item" href="/peges/belog/blog list two/Blog list two.html">Blog Column View</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center custom-width">
+                        <div><iconify-icon icon="octicon:search-16"
+                                class="fs-4 border-0 rounded-circle p-2 icon-1"></iconify-icon></div>
+                        <div><iconify-icon icon="material-symbols:contacts-product"
+                                class="fs-4 border-0 rounded-circle p-2 icon-1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></iconify-icon></div>
+                        <div class="position-relative"><iconify-icon icon="solar:star-line-duotone"
+                                class="fs-4 border-0 rounded-circle p-2 icon-1"></iconify-icon><iconify-icon
+                                icon="iconamoon:number-0-circle-fill" class="fs-6 position-absolute pos"></iconify-icon>
+                        </div>
+                        <div class="position-relative">
+                            <iconify-icon icon="solar:cart-large-2-broken"
+                                class="fs-3 border-0 rounded-circle p-2 icon-1"></iconify-icon><iconify-icon
+                                icon="iconamoon:number-0-circle-fill" class="fs-6 position-absolute pos"></iconify-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+   
+        <!-- ARMCHAIR -->
+
+
+        <div class="bg-body-secondary p-5 ">
+            <div class="mt-5">
+                <div class="col-md-12">
+                    <div class="row">
+                        <h1 class="fw-bold px-5">FLASH DEALS</h1>
+                        <div class="d-flex px-5">
+                            <iconify-icon class="fs-2" icon="mdi-light:home"></iconify-icon>
+                            <p class="mt-1 px-1">Home</p>
+                            <iconify-icon class="fs-1 fw-bold" icon="ph:dot-bold"></iconify-icon>
+                            <p class="mt-1">ARMCHAIR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- catgery -->
+            <div class="mt-5">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="d-flex">
+                                <iconify-icon class="fs-1" icon="system-uicons:lineweight"></iconify-icon>
+                                <h5 class="fw-bold px-1 mt-1 fs-2">CATEGORIES</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex">
+                                <p class="mt-1">Sort by</p>
+                                <li class="nav-item dropdown list-unstyled">
+                                    <a class="nav-link dropdown-toggle fs-4 fw-bold px-2" href="#"
+                                        id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Featured
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                        <li class="d-flex px-3"><input type="radio"><a class="dropdown-item"
+                                                href="#">Featured</a></li>
+                                        <li class="d-flex px-3  mt-2"><input type="radio"><a class="dropdown-item"
+                                                href="#">Best selling</a></li>
+                                        <li class="d-flex px-3 mt-2"><input type="radio"><a class="dropdown-item"
+                                                href="#">Alphabetically, A-Z</a></li>
+                                        <li class="d-flex px-3 mt-2"><input type="radio"><a class="dropdown-item"
+                                                href="#">Alphabetically, Z-A</a></li>
+                                        <li class="d-flex px-3 mt-2"><input type="radio"><a class="dropdown-item"
+                                                href="#">Price, low to high</a></li>
+                                        <li class="d-flex px-3 mt-2"><input type="radio"><a class="dropdown-item"
+                                                href="#">Price, high to low</a></li>
+                                        <li class="d-flex px-3 mt-2"><input type="radio"><a class="dropdown-item"
+                                                href="#">Date, old to new</a></li>
+                                        <li class="d-flex px-3 mt-2"><input type="radio"><a class="dropdown-item "
+                                                href="#">Date, new to old</a></li>
+                                    </ul>
+                                </li>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="d-flex justify-content-end box-3 ">
+                                <iconify-icon class="fs-1  border-0 text-black p-3  mx-1" mx-1
+                                    icon="mdi:apps-box"></iconify-icon>
+                                <iconify-icon class="fs-1 border-0 text-black p-3  mx-1"
+                                    icon="pixelarticons:list-box"></iconify-icon>
+                                <iconify-icon class="fs-1 border-0 text-black p-3 mx-1"
+                                    icon="majesticons:list-box-line"></iconify-icon>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        <!-- catgery -->
+
+        <div class="">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="">
+                            <p class=" border text-secondary p-1 bg-body-secondary fs-5">Living Room</p>
+                            <p class=" border text-secondary p-1 bg-body-secondary fs-5">Bad Room</p>
+                            <p class=" border text-secondary p-1 bg-body-secondary fs-5">Kitchen</p>
+                            <p class=" border text-secondary p-1 bg-body-secondary fs-5">Planter</p>
+                            <p class=" border text-secondary p-1 bg-body-secondary fs-5">Bookshelf</p>
+                            <p class=" border text-secondary p-1 bg-body-secondary fs-5">See More +</p>
+                            <h1> <iconify-icon class="px-3 pt-1" icon="mage:filter"></iconify-icon>FITER BUY</h1>
+                            <hr>
+                            <button class="btn-wive-2 rounded d-flex"><iconify-icon class="fs-4"
+                                    icon="weui:delete-outlined"></iconify-icon>Clear ALL</button>
+                                    
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid m-1" src="/imges/dol.webp" width="15000px" alt="">
+                        <p class="mt-3 text-center">Eiamond Halo Stud Donec</p>
+                        <div class="text-center">
+                            <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                        </div>
+                        <p class=" text-center m-1">$775.00
+        
+                        </p>
+                    </div>
+                    <div class="col-md-3 ">
+                        <img class="img-fluid  p-2" src="/imges/laaamp.webp" width="900px" alt="">
+                        <p class="mt-3 text-center">Hiamond Halo Stud Donec</p>
+                        <div class="text-center">
+                            <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                        </div>
+                        <p class="text-center">$775.00
+                            
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-fluid  p-2" src="/imges/clrful.webp" width="900px" alt="">
+                        <p class="mt-3 text-center">Hiamond Halo Stud Donec</p>
+                        <div class="text-center">
+                            <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                        </div>
+                        <p class="text-center">$775.00
+                            
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- filter by -->
+        <div class="container">
+            <div class="container">
+                <div class="col-md-12 mt-5 pt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid p-2" src="/imges/kurci.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Acamond Halo Stud Conse</p>
+                            <div class="text-center">
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                            </div>
+                            <p class="text-center">$550.00
+                                <span class="text-secondary text-decoration-line-through">$198.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid p-2" src="/imges/troli.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Diamond Halo Stud Amet</p>
+                            <div class="text-center">
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                            </div>
+                            <p class="text-center">$369.00
+                                <span class="text-secondary  text-decoration-line-through"> $210.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid  p-2" src="/imges/guldan.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Diamond Halo Stud Donec</p>
+                            <div class="text-center">
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                            </div>
+                            <p class="text-center">$775.00
+                                <span class="text-secondary text-decoration-line-through"> $247.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-md-12 mt-5 pt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid p-2" src="/imges/chiar-1.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Acamond Halo Stud Conse</p>
+                            <div class="text-center">
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                            </div>
+                            <p class="text-center">$550.00
+                                <span class="text-secondary text-decoration-line-through">$198.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid p-2" src="/imges/dol.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Diamond Halo Stud Amet</p>
+                            <div class="text-center">
+                                <iconify-icon class=" " icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                <iconify-icon class=" " icon="noto:star"></iconify-icon>
+                                    
+                            </div>
+                            <p class="text-center">$369.00
+                                <span class="text-secondary text-decoration-line-through"> $210.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid  p-2" src="/imges/laaamp.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Diamond Halo Stud Donec</p>
+                            <div class="text-center">
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                            </div>
+                            <p class="text-center">$775.00
+                                <span class="text-secondary"> $247.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-md-12 mt-5 pt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid p-2" src="/imges/dab.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Acamond Halo Stud Conse</p>
+                            <div class="text-center">
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                            </div>
+                            <p class="text-center">$550.00
+                                <span class="text-secondary  text-decoration-line-through">$198.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid p-2" src="/imges/wow.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Diamond Halo Stud Amet</p>
+                            <div class="text-center">
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                                <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                            </div>
+                            <p class="text-center">$369.00
+                                <span class="text-secondary"> $210.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid  p-2" src="/imges/nice.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Diamond Halo Stud Donec</p>
+                            <div class="text-center">
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                            </div>
+                            <p class="text-center">$775.00
+                                <span class="text-secondary"> $247.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-md-12 mt-5 pt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid p-2" src="/imges/black.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Acamond Halo Stud Conse</p>
+                            <div class="text-center">
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                            </div>
+                            <p class="text-center">$550.00
+                                <span class="text-secondary text-decoration-line-through">$198.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid p-2" src="/imges/sed.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Diamond Halo Stud Amet</p>
+                            <p class="text-center">$369.00
+                                <span class="text-secondary"> $210.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid  p-2" src="/imges/daimond.webp" width="500px" alt="">
+                            <p class="mt-3 text-center">Diamond Halo Stud Donec</p>
+                            <div class="text-center">
+                                <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class="" icon="noto:star"></iconify-icon>
+                                    <iconify-icon class=" text-secondary" icon="line-md:star"></iconify-icon>
+                            </div>
+                            <p class="text-center">$775.00
+                                <span class="text-secondary text-decoration-line-through"> $247.00</span>
+                            <div class="w-75 mx-5">
+                                <div class="progress" style="height: 8px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                                        style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="20">
+                                    </div>
+                                </div>
+                            </div>
+                            </p>
+                            <p class="text-secondary text-center">94% Sold - Available 30</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class=" mb-5 text-center">
+                <div>
+                    <h4 class="fw-bold text-center mt-5 text-secondary">Showing 12 of 16 products</h4>
+                    <div class="d-flex justify-content-center mt-3">
+                        <div class="progress w-25" style="height: 5px;">
+                            <div class="progress-bar bg-success " role="progressbar" aria-label="Success example"
+                                style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                        <div class="text-center">  
+                            <button class="btn-wive-2 rounded py-2 mt-4 fs-4"><iconify-icon class="fs-5 fw-bold"icon="weui:delete-outlined"></iconify-icon>Clear ALL</button>
+                        </div>
+                      
+                  </div>
+
+
+
+
+                    <h2 class="fs-4 mt-5"></h2>
+                    
+                        
+                </div>
+                    
+            
+                
+            
+
+
+            <!-- summary  -->
+            <div class="container bg-body-secondary mt-5">
+                <p class="fs-3 fw-bold"><iconify-icon class="mx-3 mt-4" icon="charm:tag"></iconify-icon>TAGS</p>
+                <div class="col-md-12 ">
+                    <div class="row">
+                        <div class="col-md-1 ">
+                            <button class="btn-wive rounded py-2 px-2">13.7'x6.3x4</button>
+                        </div>
+                        <div class="col-md-1 mx-3">
+                            <button class="btn-wive rounded py-2 px-2">13.7'x6.3x4</button>
+                        </div>
+                        <div class="col-md-1 mx-3">
+                            <button class="btn-wive rounded py-2 px-2">32.7'x12.3'x8'</button>
+                        </div>
+                        <div class="col-md-1 mx-4 ">
+                            <button class="btn-wive rounded py-2 px-2">28.7'x16.3'x10'</button>
+                        </div>
+                        <div class="col-md-1 mx-4">
+                            <button class="btn-wive rounded py-2 px-2">Black</button>
+                        </div>
+                        <div class="col-md-1 mx-1">
+                            <button class="btn-wive rounded py-2 px-2">Blue</button>
+                        </div>
+                        <div class="col-md-1 mx-">
+                            <button class="btn-wive rounded py-2 px-2">Gray</button>
+                        </div>
+                        <div class="col-1 mx-1">
+                            <button class="btn-wive rounded py-2 px-2">Pink</button>
+                        </div>
+                        <div class="col-md-1 mx-1">
+                            <button class="btn-wive rounded py-2 px-2">Red</button>
+                        </div>
+                        <div class="col-md-1 mx-1">
+                            <button class="btn-wive rounded py-2 px-2">White</button>
+                        </div>
+                        <div class="col-md-1 mt-2">
+                            <button class="btn-wive rounded py-2 px-2">Xl</button>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="container">
+                    <p class="fs-2 fw-bold mt-5">FLASH DEALS</p>
+                    <p class="text-secondary pb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu ipsum eu quam blandit maximus.
+                        Donec
+                        at lacus lacus. Donec ultricies lacus libero, fermentum mollis velit accumsan ac. Morbi in nunc
+                        erat. Sed a ligula tristique mi aliquam pellentesque. Ut malesuada nisl eros, ut sollicitudin ex
+                        mattis quis. Praesent cursus a augue ac placerat. Nam mattis mi ac dui suscipit egestas.
+                        Vestibulum
+                        lorem libero, feugiat dapibus urna id, gravida varius tellus. Nam sed congue quam. Sed sit amet
+                        libero augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                        himenaeos. Nam et efficitur ante. Vestibulum quis volutpat felis, volutpat ornare nunc. Vivamus
+                        ac
+                        aliquam justo. Mauris ultrices posuere velit, eu elementum mauris.
+
+                        Phasellus vitae egestas orci. Pellentesque mi ex, vestibulum nec neque mollis, ultricies mollis
+                        elit. Sed purus elit, aliquet at erat id, efficitur vehicula velit. Fusce tristique lectus a
+                        velit
+                        finibus, sed facilisis odio placerat. Ut quis efficitur mi, quis porttitor ipsum. Phasellus
+                        euismod
+                        est vitae neque consectetur, nec laoreet enim pharetra. Aliquam non sem sit amet nunc
+                        consectetur
+                        ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed orci non magna
+                        consectetur viverra. Suspendisse at lectus lacus. Suspendisse eget ultricies mi. Pellentesque
+                        rutrum
+                        porta lorem, ac interdum nisl faucibus at. Aliquam turpis metus, aliquam at bibendum
+                        scelerisque,
+                        posuere blandit urna. Nunc sit amet lacus purus. In mattis laoreet purus eget pulvinar. Quisque
+                        non
+                        enim mollis, ultricies quam efficitur, efficitur nunc.
+
+                        Mauris sollicitudin, est nec volutpat placerat, ex quam dignissim risus, et aliquam lacus ante
+                        vitae
+                        nulla. Suspendisse mattis luctus nulla, quis tincidunt erat aliquam auctor. Fusce non felis
+                        pellentesque nisl egestas ornare non in enim. Duis sed purus a tellus tempor pharetra.
+                        Suspendisse
+                        vel velit nec mauris mattis maximus in sed ipsum. Nulla eu augue in mauris porttitor tincidunt
+                        in
+                        non metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                        egestas. Nullam a laoreet sapien, vel tristique risus. Fusce rhoncus, nibh vel pharetra
+                        suscipit,
+                        odio justo consectetur mi, sit amet ullamcorper ex nulla ac elit. Phasellus feugiat mi augue, eu
+                        convallis nisi iaculis nec.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="row row-cols-12 row mt-5">
+                <div class="col-4">
+                    <div class="">
+
+                        <div class="card-body  text-center">
+                            <p class="card-title p-1"><iconify-icon class="text-success fs-4 mx-2"
+                                    icon="octicon:rocket-24"></iconify-icon> Extra Shipping</p>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typeset ting
+                                industry lorem Ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="">
+
+                        <div class="card-body text-center">
+                            <p class="card-title p-1"><iconify-icon class="text-success fs-4 mx-2"
+                                    icon="mdi:recurring-payment"></iconify-icon>Payment Secured</p>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typeset ting
+                                industry lorem Ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="">
+
+                        <div class="card-body text-center">
+                            <p class="card-title p-1 fs-6"> <iconify-icon class="text-success fs-5 mx-2"
+                                    icon="hugeicons:money-security"></iconify-icon>Money Back Guarantee</p>
+                            <p class="card-text text-secondary">Lorem Ipsum is simply dummy text of the printing and
+                                typeset
+                                ting
+                                industry lorem Ipsum.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h1 class="mt-5 text-center">Recently Viewed Products</h1>
+            <div id="carouselExample" class="carousel slide p-5 container">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <h1>Flesh Deals</h1>
+                        <div class="col-md-12 d-flex mt-5 pt-5">
+                            <div class="col-md-4">
+                                <img class="img-fluid p-2" src="/imges/sed.webp" width="400px" alt="">
+                                <p class="mt-3">Acamond Halo Stud Conse</p>
+                                <p>$550.00
+                                    <span class="text-secondary">$198.00</span>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid p-2" src="/imges/daimond.webp" width="400px" alt="">
+                                <p class="mt-3">Diamond Halo Stud Amet</p>
+                                <p>$369.00
+                                    <span class="text-secondary"> $210.00</span>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid  p-2" src="/imges/nice.webp" width="400px" alt="">
+                                <p class="mt-3">Diamond Halo Stud Donec</p>
+                                <p>$775.00
+                                    <span class="text-secondary"> $247.00</span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <h1>Flesh Deals</h1>
+                        <div class="col-md-12 d-flex mt-5 pt-5">
+                            <div class="col-md-4">
+                                <img class="img-fluid  p-2" src="/imges/wow.webp" width="400px" alt="">
+                                <p class="mt-3">Diamond Halo Stud Donec</p>
+                                <p>$775.00
+                                    <span class="text-secondary"> $247.00</span>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid  p-2" src="/imges/dab.webp" width="400px" alt="">
+                                <p class="mt-3">Diamond Halo Stud Monte</p>
+                                <p>$945.00
+                                    <span class="text-secondary">$236.00</span>
+                                </p>
+
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid  p-2" src="/imges/clrful.webp" width="400px" alt="">
+                                <p class="mt-3">Eiamond Halo Stud Donec</p>
+                                <p>$775.00
+                                    <span class="text-secondary">$499.00</span>
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <h1>Flesh Deals</h1>
+                        <div class="col-md-12 d-flex mt-5 pt-5">
+                            <div class="col-md-4">
+                                <img class="img-fluid  p-2" src="/imges/40_1120x.webp" width="400px" alt="">
+                                <p class="mt-3">Diamond Halo Stud Donec</p>
+                                <p>$775.00
+                                    <span class="text-secondary"> $247.00</span>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid  p-2" src="/imges/cup.webp" width="400px" alt="">
+                                <p class="mt-3">Diamond Halo Stud Monte</p>
+                                <p>$945.00
+                                    <span class="text-secondary">$236.00</span>
+                                </p>
+
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid  p-2" src="/imges/table.2.webp" width="400px" alt="">
+                                <p class="mt-3">Eiamond Halo Stud Donec</p>
+                                <p>$775.00
+                                    <span class="text-secondary">$499.00</span>
+                                </p>
+                            </div>
+
+                        </div>
+            
+
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-body-secondary" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!-- footare -->
+            <footer class="footer">
+                <div class="container mt-5 ">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href=""><img src="/imges/Logo.webp" alt=""></a>
+                                <br>
+                                <br>
+                                <div class="d-flex">
+                                    <iconify-icon class="fs-4" icon="mynaui:location"></iconify-icon>
+                                    <p class="px-3 text-secondary">2357 Gordon Street, CA</p>
+                                </div>
+                                <div class="d-flex">
+                                    <iconify-icon class="fs-4" icon="mynaui:telephone"></iconify-icon>
+                                    <p class="px-3 text-secondary">0123 456 789</p>
+                                </div>
+                                <div class="d-flex">
+                                    <iconify-icon class="fs-4" icon="ep:message"></iconify-icon>
+                                    <p class="px-3 text-secondary">demo@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2  mt-2">
+                                <h5>About Us</h5>
+                                <br>
+                                <p class="text-secondary">Our story</p>
+                                <p class="text-secondary">Our team</p>
+                                <p class="text-secondary">Designers</p>
+                            </div>
+                            <div class="col-md-2 mt-2">
+                                <h5>Customer service</h5>
+                                <br>
+                                <p class="text-secondary">Home</p>
+                                <p class="text-secondary">Products</p>
+                                <p class="text-secondary">Contacts</p>
+                            </div>
+                            <div class="col-md-2  mt-2">
+                                <h5>Support</h5>
+                                <br>
+                                <p class="text-secondary">FAQ's</p>
+                                <p class="text-secondary">Shipping</p>
+                                <p class="text-secondary">Return</p>
+                            </div>
+                            <div class="col-md-3 mt-2">
+                                <h5>Newsletters</h5>
+                                <br>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control text-secondary"
+                                        placeholder="Entr Your Email">
+                                        <span class="input-group-text  btn-wive ">Submint</span>
+                                </div>
+                                <div class="icons-4">
+                                    <iconify-icon class="fs-4" icon="basil:facebook-solid"></iconify-icon>
+                                    <iconify-icon class="fs-4 mx-2" icon="typcn:social-pinterest"></iconify-icon>
+                                    <iconify-icon class="fs-4 mx-2" icon="iconoir:instagram"></iconify-icon>
+                                    <iconify-icon class="fs-4 mx-2" icon="bi:twitter"></iconify-icon>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class=" container d-flex justify-content-between">
+                    <div class="">
+                        <p class="text-secondary">Copyright © 2023 Vinovathemes. All Rights Reserved.</p>
+                    </div>
+                    <div class="">
+                        <iconify-icon class="fs-5" icon="logos:apple-pay"></iconify-icon>
+
+                        <iconify-icon class="fs-4 px-3" icon="logos:mastercard"></iconify-icon>
+                        <iconify-icon class="fs-4 px-3" icon="logos:paypal"></iconify-icon>
+                        <iconify-icon class="fs-5 px-3" icon="logos:visa"></iconify-icon>
+                    </div>
+                </div>
+            </footer>
+            
+
+            <div class="offcanvas offcanvas-end container" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Fur Store Web Side</h5>
+                  
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body ">
+                  <h4 class="px-5 fw-light"> <a href="/peges/acunt/cont/contact.html">Log in</h4></a>
+                  <h4  class="px-5 fw-light mt-5"><a href="/peges/acunt/regestr/regestr.htm">Rejister</h4></a>
+                  <h4  class="px-5 fw-light mt-5"> <a href="/peges/acunt/cont/contact.html">Wishlist</h4></a>
+                  <h4  class="px-5 fw-light mt-5"><a href="/peges/acunt/regestr/regestr.htm">Check out</h4></a>
+                  <hr class="mt-5">
+                 
+                </div>
+                <div class="offcanvas-body container">
+                 
+                </div>
+                
+              </div>
+            </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Jost", sans-serif;
+}
+.root-1{
+  background-color: #005F5E;
+}
+.icon-1:hover {
+  background-color: rgb(219, 217, 217)
+}
+.hero-1 {
+  background-image: url(../imges/hero.img.1.webp);
+  background-size: 100% 100%;
+  height: 600px;
+}
+.hero-2{
+  background-image: url(../imges/hero.img.2.webp);
+}
+.pos {
+  right: 0%;
+  color: rgb(6, 92, 59);
+}
+.pic{
+  background-image: url(../imges/img-5-1_768x.webp);
+  background-size: 400px;
+  animation: pic 20s ease 0s 1 normal forwards;
+}
+.pic-2 {
+  background-image: url(../imges/img-3.webp);
+  background-size: 450px;
+  
+}
+.pic-3{
+  background-image: url(../imges/lamp.3.webp);
+  background-size: 400px;
+}
+.gelop-1 {
+  background-image: url(../imges/gelop-img-2.webp);
+  height: 280px;
+  animation: gelop-1 15s ease 0s 1 normal forwards;
+}
+.gelop-2{
+  background-image: url(../imges/gelop-img.1.webp);
+}
+.btn-wive {
+  color: var(--primary_color);
+  background: none;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+.btn-wive:hover {
+  background-color: #005F5E;
+  color: #F5F5F5;
+}
+.card-1 {
+  --color-shadow-rgb: 0, 0, 0;
+  box-shadow: 0 0 25px rgba(var(--color-shadow-rgb), .08);
+  padding: 4rem 15px;
+}
+.img-12 img {
+  animation: img-12 5s ease 0s 1 normal forwards;
+}
+@media (max-width: 575.98px) {
+  .hero-1 {
+    height: auto;
+  }
+}
+@keyframes img-12 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes hero-1 {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+@keyframes pic {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+@keyframes gelop-1 {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+} 
+/* page-2 */
+.box-3 :hover {
+  background-color: #e6e7e7;
+  color: #F5F5F5;
+}
+.btn-wive-2 {
+  color: #0a5d5d;
+  border-color: var(--color-secondary-button-border);
+  background-color: white;
+  cursor: pointer;
+  padding: 5px 100px;
+}
+.btn-wive-2:hover {
+  background-color: #005F5E;
+  color: #F5F5F5;
+}
+/* blog pages */
+.font {
+  font-size: 12px;
+}
+.font-1 {
+  font-size: 5px;
+}
+.search-button {
+  margin-left: 15%;
+}
